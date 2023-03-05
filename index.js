@@ -6,7 +6,7 @@ document.getElementById("num2-el").textContent=b
 let temp=document.getElementById("sum-el")
 
 function add(){
-     temp.textContent="Result : "+a+b
+     temp.textContent="Result : "+(a+b)
 }
 function subtract(){
     temp.textContent="Result : "+(a-b)
